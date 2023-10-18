@@ -19,7 +19,9 @@ const ProjectCard = ({ work , index }) => {
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'               onClick={() => window.open(work.source_code_link, "_blank")}
+        <div 
+         className='relative w-full  h-[230px]'               
+        onClick={() => window.open(work.source_code_link, "_blank")}
 >
         
           <img
